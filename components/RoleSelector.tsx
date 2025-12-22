@@ -13,7 +13,7 @@ export const RoleSelector = () => {
         onChange={(e) => setRole(e.target.value as any)}
         className="border p-2 rounded"
       >
-        <option value="guest">Гость</option>
+        <option value="client">Гость</option>
         <option value="cashier">Кассир</option>
         <option value="operator">Оператор</option>
         <option value="admin">Администратор</option>

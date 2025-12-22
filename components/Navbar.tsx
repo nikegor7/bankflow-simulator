@@ -10,6 +10,8 @@ export const Navbar = () => {
         <Link href="/roles" className="hover:underline">Roles</Link>
         <Link href="/systems" className="hover:underline">Systems</Link>
         <Link href="/about" className="hover:underline">About</Link>
+        <Link href="/login" className="hover:underline">Sign-in</Link>
+        <Link href="/register" className="hover:underline">Sign-up</Link>
       </div>
     </nav>
   );
